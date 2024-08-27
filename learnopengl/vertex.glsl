@@ -11,5 +11,5 @@ void main()
 {
     gl_Position = vec4(offset + a_pos.x, a_pos.yz , 1.0);
     vertex_color = a_color;
-    vertex_position = gl_Position;
+    vertex_position = abs(gl_Position);
 }

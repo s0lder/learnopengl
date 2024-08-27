@@ -38,10 +38,10 @@ int main()
 	Shader shader("./vertex.glsl", "./fragment.glsl");
 
 	float vertices[18] = {
-		// positions          //colors
-		-0.5f,  -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,   // left
-		 0.5f,  -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,   // right
-		-0.0f,   0.5f, 0.0f,  0.0f, 0.0f, 1.0f,   // top
+		// positions         //colors
+		-0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,   // left
+		 0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,   // right
+		-0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f,   // top
 	};
 
 	// vbo, vao
